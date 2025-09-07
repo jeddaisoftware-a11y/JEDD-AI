@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JEDD AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="Estiloindex.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo-nombre">
+    <img src="img/LOGO JEDD AI-Photoroom-Photoroom.png" alt="Logo JEDD AI" class="logo"/>
+  </div>
+  <h1>JEDD AI</h1>
+  <p class="slogan">Tecnología segura, soluciones inteligentes</p>
+  <nav>
+    <ul>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="nosotros">
+  <h2>Misión, Visión y Objetivos</h2>
+  <p><strong>Misión:</strong> Desarrollar soluciones innovadoras, seguras y de alta calidad que impulsen la transformación digital.</p>
+  <p><strong>Visión:</strong> Ser reconocidos por la innovación, excelencia técnica y compromiso con nuestros clientes.</p>
+  <p><strong>Objetivo:</strong> Impulsar el crecimiento de empresas mediante software eficiente y personalizado.</p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <ul>
+    <li>Aplicaciones web y móviles para gestión escolar</li>
+    <li>Software para médicos y congresos</li>
+    <li>Tiendas en línea para negocios familiares</li>
+    <li>Consultoría en transformación digital</li>
+  </ul>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 JEDD AI, S.A. de C.V.</p>
+  <p><a href="mailto:jed.ai.software@gmail.com">jed.ai.software@gmail.com</a></p>
+  <p><a href="#">Aviso de privacidad</a> | <a href="#">Términos de uso</a></p>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector("form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Gracias por tu mensaje. Nos pondremos en contacto pronto.");
+    });
+  });
+</script>
+
+</body>
+</html>
